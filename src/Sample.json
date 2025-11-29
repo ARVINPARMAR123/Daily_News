@@ -1,0 +1,84 @@
+{
+  "status": "ok",
+  "totalResults": 6,
+  "articles": [
+    {
+      "source": {
+        "id": "politico",
+        "name": "Politico"
+      },
+      "author": "Nicholas Wu",
+      "title": "Wiley Nickel ends short-lived Senate campaign in N.C. - Politico",
+      "description": "His move likely clears the Democratic field for former Gov. Roy Cooper.",
+      "url": "https://www.politico.com/live-updates/2025/07/29/congress/wiley-nickel-ends-senate-campaign-00481128",
+      "urlToImage": "https://www.politico.com/dims4/default/0f9d981/2147483647/resize/1200x/quality/90/?url=https%3A%2F%2Fstatic.politico.com%2F4e%2F39%2F7ab5f60348938a66eac8626310bc%2Fnew-member-orientation-08928.jpg",
+      "publishedAt": "2025-07-29T14:02:23Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "404media.co"
+      },
+      "author": "Jason Koebler",
+      "title": "Meta Is Going to Let Job Candidates Use AI During Coding Tests - 404 Media",
+      "description": "\"This is more representative of the developer environment that our future employees will work in.\"",
+      "url": "https://www.404media.co/meta-is-going-to-let-job-candidates-use-ai-during-coding-tests/",
+      "urlToImage": "https://www.404media.co/content/images/size/w1200/2025/07/CleanShot-2025-07-28-at-19.26.08@2x.png",
+      "publishedAt": "2025-07-29T13:01:30Z",
+      "content": "This article was produced with support from WIRED.\r\nMeta told employees that it is going to allow some coding job candidates to use an AI assistant during the interview process, according to internal… [+352 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "NPR"
+      },
+      "author": "",
+      "title": "Here are the 13 books that made the Booker Prize longlist - NPR",
+      "description": "The prize is one of the most prestigious awards in literature. This year's crop of nominees includes two debut novelists going up against a previous Booker Prize winner.",
+      "url": "https://www.npr.org/2025/07/29/nx-s1-5482914/2025-booker-prize-longlist-fiction",
+      "urlToImage": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2000x1125+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F00%2Ff9%2F59b18e2c4195bdea85b5de9cde2d%2Fcopy-of-6-book-covers-2.jpg",
+      "publishedAt": "2025-07-29T13:00:00Z",
+      "content": "An epic fable about two young Indian writers. A dark comedy about a loner who gets a job as a chauffeur for the mega-rich. A book about a Ukrainian ecologist studying snails that turns into a metafic… [+1386 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "David Goldman",
+      "title": "Trump’s trade war victory is already under siege - CNN",
+      "description": "The economy was supposed to crumble. The trade war was expected to escalate out of control. Markets were forecast to plunge. None of that has happened. But Trump’s early trade victory may be short-lived. In fact, it is already showing signs that it may not la…",
+      "url": "https://www.cnn.com/2025/07/29/business/trade-war-trump",
+      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2208184612-20250729115436654.jpg?c=16x9&q=w_800,c_fill",
+      "publishedAt": "2025-07-29T12:59:00Z",
+      "content": "The economy was supposed to crumble. The trade war was expected to escalate out of control. Markets were forecast to plunge.\r\nNone of that happened at least, not yet.\r\nPresident Donald Trump has pull… [+5907 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "WSJ Staff, Spencer Jakab, Roshan Fernandez, Joe Wallace, John Keilman, Chelsey Dulaney, Jessica Mendoza, Sabrina Siddiqui, Heard Editors",
+      "title": "Stock Market Today: Dow, S&P 500 Futures Rise With Earnings, China Talks in Focus - The Wall Street Journal",
+      "description": "Trump’s tariffs and trade deals continue to affect global markets. Follow along for live updates on the Dow, S&P 500 and Nasdaq.",
+      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp500-nasdaq-07-29-2025",
+      "urlToImage": "https://images.wsj.net/im-34062673/social",
+      "publishedAt": "2025-07-29T12:28:00Z",
+      "content": "Investors are scouring big-name earnings, while tracking trade-talk progress ahead of the Friday deadline for higher tariffs to kick in on goods from many nations.\r\nEarnings rolled out Tuesday mornin… [+1398 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "ABC News",
+      "title": "Manhattan shooting suspect claimed to have CTE, mentioned NFL in note, sources say - ABC News",
+      "description": null,
+      "url": "https://abcnews.go.com/US/midtown-shooting-suspect-left-note-mentioning-nfl-cte/story?id\\\\u003d124163966",
+      "urlToImage": null,
+      "publishedAt": "2025-07-29T12:22:30Z",
+      "content": null
+    }
+  ]
+}
