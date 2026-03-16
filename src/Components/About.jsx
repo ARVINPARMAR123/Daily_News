@@ -1,114 +1,52 @@
-import React, { useState } from "react";
+import React from "react";
 
-function About(props) {
+const features = [
+  {
+    title: "Category-first reading",
+    description:
+      "Jump between business, sports, entertainment, science, and more without digging through a noisy mixed feed.",
+  },
+  {
+    title: "Quick scanning, deeper follow-through",
+    description:
+      "Each story is reduced to a clean card with the source, timestamp, summary, and a direct path to the full article.",
+  },
+  {
+    title: "Graceful fallback experience",
+    description:
+      "If the live news service is unavailable, DailyNews can still render sample headlines so the interface never feels broken.",
+  },
+];
 
-    // const [myStyle, setMyStyle] = useState({
-    //     color: 'black',
-    //     backgroundColor: 'white'
-    // });
-    // const [btnText, setBtnText] = useState("Enable Dark Mode")
-
-    // const toggleStyle = () => {
-    //     if(myStyle.color === 'black'){
-    //         setMyStyle({
-    //             color: 'white',
-    //             backgroundColor: 'black'
-    //         })
-    //         setBtnText("Enable Light Mode")
-    //     }
-    //     else{
-    //         setMyStyle({
-    //             color: 'black',
-    //             backgroundColor: 'white'
-    //         })
-    //         setBtnText("Enable Dark Mode")
-    //     }
-    // }
-
-    let myStyle = {
-      color: props.mode === 'dark' ? 'white' : '#042743',
-      backgroundColor: props.mode === 'dark' ? 'rgb(36 74 104)' : 'white'
-    }
-
+function About() {
   return (
-    <div className="container my-5" style={{color: props.mode === 'dark' ? 'white' : '#042743'}}>
-        <h1>About Us</h1>
-      <div className="accordion my-3 w-75" id="accordionExample" style={myStyle}>
-        <div className="accordion-item ">
-          <h2 className="accordion-header">
-            <button
-              className="accordion-button"
-              style={myStyle}
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#collapseOne"
-              aria-expanded="true"
-              aria-controls="collapseOne"
-            >
-              <b>Analyze Your Text</b>
-            </button>
-          </h2>
-          <div
-            id="collapseOne"
-            className="accordion-collapse collapse show "
-            data-bs-parent="#accordionExample"
-          >
-            <div className="accordion-body" style={myStyle}>
-              <strong>This is the first item’s accordion body.</strong> Wordpad gives a way to analyze your text quickly and efficiently. Be it word count, character count or convert your text in Uppercase or Lowercase...
-            </div>
-          </div>
-        </div>
-        <div className="accordion-item" style={myStyle}>
-          <h2 className="accordion-header">
-            <button
-              className="accordion-button collapsed"
-              type="button"
-              style={myStyle}
-              data-bs-toggle="collapse"
-              data-bs-target="#collapseTwo"
-              aria-expanded="false"
-              aria-controls="collapseTwo"
-            >
-              <b>Free to Use</b>
-            </button>
-          </h2>
-          <div
-            id="collapseTwo"
-            className="accordion-collapse collapse"
-            data-bs-parent="#accordionExample"
-          >
-            <div className="accordion-body" style={myStyle}>
-              <strong>This is the second item’s accordion body.</strong> Wordpad is a free character tool the provides instant count & word count statistics for a given text. Wordpad reports the number of words and Characters. Thus it is suitable for writing text with word/character limit.
-            </div>
-          </div>
-        </div>
-        <div className="accordion-item " style={myStyle}>
-          <h2 className="accordion-header">
-            <button
-              className="accordion-button collapsed"
-              type="button"
-              style={myStyle}
-              data-bs-toggle="collapse"
-              data-bs-target="#collapseThree"
-              aria-expanded="false"
-              aria-controls="collapseThree"
-            >
-              <b>Browser Compatible</b>
-            </button>
-          </h2>
-          <div
-            id="collapseThree"
-            className="accordion-collapse collapse "
-            data-bs-parent="#accordionExample"
-          >
-            <div className="accordion-body " style={myStyle}>
-              <strong>This is the third item’s accordion body.</strong> This word counter software works in any web browsers such as Chrome, Firefox, Internet Explorer, Safari, Opera.. It suits to count character in facebook, Blog, Books, Excel document, PDF document, etc..
-            </div>
-          </div>
-        </div>
+    <section className="container about-page">
+      <div className="about-hero">
+        <p className="page-kicker">About DailyNews</p>
+        <h1>Clean categories. Faster scanning. Less noise.</h1>
+        <p className="about-hero__copy">
+          DailyNews is built for readers who want the important headlines quickly, without an overloaded layout or endless clutter.
+          It keeps stories organized, responsive, and easy to browse across every device size.
+        </p>
       </div>
-      {/* <button onClick={toggleStyle} className="btn btn-primary">{btnText}</button> */}
-    </div>
+
+      <div className="row g-4 about-grid">
+        {features.map((feature, index) => (
+          <div className="col-md-6 col-xl-4" key={feature.title}>
+            <article className="about-card h-100">
+              <span className="about-card__index">0{index + 1}</span>
+              <h2>{feature.title}</h2>
+              <p>{feature.description}</p>
+            </article>
+          </div>
+        ))}
+      </div>
+
+      <div className="about-note">
+        <strong>Built for everyday reading.</strong>
+        <p>Use the navigation to move between sections and keep up with the latest headlines in the areas you care about most.</p>
+      </div>
+    </section>
   );
 }
 

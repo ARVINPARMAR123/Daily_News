@@ -4,8 +4,9 @@ import Loading from './loading.gif'
 export default class Spinner extends Component {
   render() {
     return (
-      <div className='body d-flex justify-content-center text-center align-items-center'>
-        <img src={Loading} alt={Loading} />
+      <div className='news-spinner' role='status' aria-live='polite'>
+        <img src={Loading} alt='Loading headlines' />
+        <span className='visually-hidden'>Loading headlines...</span>
       </div>
     )
   }
